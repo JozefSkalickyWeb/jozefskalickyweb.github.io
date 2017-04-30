@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+  <meta charset="utf-8">
+  <title>Jozef Skalický</title>
+  <link rel="stylesheet" type="text/css" rel="stylesheet" href="materialize.css" media="screen,projection">
+  <link rel="stylesheet" type="text/css" rel="stylesheet" href="style.css" media="screen,projection">
+  <script type="text/javascript" src="materialize.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Lora" rel="stylesheet">
+</head>
+
+<body>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.collapsible').collapsible();
+    });
+  </script>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo"><img src="logo.png" class="logo"></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="ktosom.html">KTO SOM</a></li>
+        <li><a href="ocoide.html">O ČO IDE</a></li>
+        <li><a href="pribehy.html">PRÍBEHY</a></li>
+        <li><a href="kontakt.html">KONTAKT</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="row">
+    <div class="col s1"></div>
+    <div class="col s10">
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header active">First</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header">Second</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header">Third</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

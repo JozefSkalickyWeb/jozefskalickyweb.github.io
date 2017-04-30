@@ -1,0 +1,89 @@
+html {
+  min-height: 100%;
+  /* make sure it is at least as tall as the viewport */
+  position: relative;
+}
+
+body {
+  height: 100%;
+  /* force the BODY element to match the height of the HTML element */
+  background: #bbbbbb;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #bbbbbb 0%, #aaaaaa 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #bbbbbb 0%, #aaaaaa 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #bbbbbb 0%, #aaaaaa 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bbbbbb', endColorstr='#aaaaaa', GradientType=0);
+  /* IE6-9 */
+}
+
+.index-image {
+  display: block;
+  max-width: 600px;
+  margin: 130px auto;
+  background-color: #FFF;
+  padding: 10px;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #555;
+  border-left: 3px solid #363636;
+  border-right: 3px solid #363636;
+  outline: 20px solid #262626;
+  -webkit-box-shadow: 0px 8px 19px 23px rgba(38, 38, 38, 0.75), 0px -2px 0px 20px #555, 0px 0px 0px 22px #363636, inset 0px 0px 8px 0px rgba(38, 38, 38, 0.85);
+  -moz-box-shadow: 0px 8px 19px 23px rgba(38, 38, 38, 0.75), 0px -2px 0px 20px #555, 0px 0px 0px 22px #363636, inset 0px 0px 8px 0px rgba(38, 38, 38, 0.85);
+  box-shadow: 0px 8px 19px 23px rgba(38, 38, 38, 0.75), 0px -2px 0px 20px #555, 0px 0px 0px 22px #363636, inset 0px 0px 8px 0px rgba(38, 38, 38, 0.85);
+}
+
+.kto-som-image {
+  display: block;
+  max-width: 600px;
+  margin: 50px auto;
+  outline: 20px solid #FFF;
+  -webkit-box-shadow: 0px 4px 17px 20px rgba(38, 38, 38, 0.75);
+  -moz-box-shadow: 0px 4px 17px 20px rgba(38, 38, 38, 0.75);
+  box-shadow: 0px 8px 19px 23px rgba(38, 38, 38, 0.75);
+}
+
+
+.image-small {
+  display: block;
+  max-width: 400px;
+  margin: 40px auto;
+  background-color: #FFF;
+  padding: 6px;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #555;
+  border-left: 2px solid #363636;
+  border-right: 2px solid #363636;
+  outline: 10px solid #262626;
+  -webkit-box-shadow: 0px 4px 9px 12px rgba(38, 38, 38, 0.75), 0px -1px 0px 10px #555, 0px 0px 0px 11px #363636, inset 0px 0px 6px 0px rgba(38, 38, 38, 0.85);
+  -moz-box-shadow: 0px 4px 9px 12px rgba(38, 38, 38, 0.75), 0px -1px 0px 10px #555, 0px 0px 0px 11px #363636, inset 0px 0px 6px 0px rgba(38, 38, 38, 0.85);
+  box-shadow: 0px 4px 9px 12px rgba(38, 38, 38, 0.75), 0px -1px 0px 10px #555, 0px 0px 0px 11px #363636, inset 0px 0px 6px 0px rgba(38, 38, 38, 0.85);
+}
+
+.image-ocoide {
+  display: block;
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #FFF;
+  padding: 10px;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #555;
+  border-left: 3px solid #363636;
+  border-right: 3px solid #363636;
+  outline: 20px solid #262626;
+  -webkit-box-shadow: 0px 8px 19px 23px rgba(38, 38, 38, 0.75), 0px -2px 0px 20px #555, 0px 0px 0px 22px #363636, inset 0px 0px 8px 0px rgba(38, 38, 38, 0.85);
+  -moz-box-shadow: 0px 8px 19px 23px rgba(38, 38, 38, 0.75), 0px -2px 0px 20px #555, 0px 0px 0px 22px #363636, inset 0px 0px 8px 0px rgba(38, 38, 38, 0.85);
+  box-shadow: 0px 8px 19px 23px rgba(38, 38, 38, 0.75), 0px -2px 0px 20px #555, 0px 0px 0px 22px #363636, inset 0px 0px 8px 0px rgba(38, 38, 38, 0.85);
+}
+
+.text {
+  font-family: 'Merriweather', serif;
+  font-size:16px;
+  margin: 20px 10%;
+}
+
+.logo {
+  padding-top: 10px;
+}
