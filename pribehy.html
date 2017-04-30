@@ -6,17 +6,14 @@
   <title>Jozef Skalický</title>
   <link rel="stylesheet" type="text/css" rel="stylesheet" href="materialize.css" media="screen,projection">
   <link rel="stylesheet" type="text/css" rel="stylesheet" href="style.css" media="screen,projection">
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script type="text/javascript" src="materialize.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Merriweather|Lora" rel="stylesheet">
 </head>
 
 <body>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('.collapsible').collapsible();
-    });
-  </script>
+
   <nav>
     <div class="nav-wrapper">
       <a href="index.html" class="brand-logo"><img src="logo.png" class="logo"></a>
@@ -29,26 +26,43 @@
       </ul>
     </div>
   </nav>
-  <div class="row">
-    <div class="col s1"></div>
-    <div class="col s10">
-      <ul class="collapsible" data-collapsible="accordion">
-        <li>
-          <div class="collapsible-header active">First</div>
-          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-        </li>
-        <li>
-          <div class="collapsible-header">Second</div>
-          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-        </li>
-        <li>
-          <div class="collapsible-header">Third</div>
-          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-        </li>
-      </ul>
+  <div class="container">
+    <div class="row">
+      <div class="col s2"></div>
+      <div class="col s10">
+        <ul class="collapsible" data-collapsible="accordion">
+          <li>
+            <div class="collapsible-header active z-depth-2">Uväznená rodičmi</div>
+            <div class="collapsible-body z-depth-1">
+              <p class="text-pribehy">Čím ste chceli byť, keď ste boli malí? Myslím, že zoznam, ktorý by sme sem začali písat by bol riadne dlhý. Prečo to píšem? Pretože medzi nami je veľa takých, ktorý nemohli byť tým, čím chceli alebo chcú. Sú uväznený svojimi vzorcami správania
+                a výchovou alebo okolnosťami ich súčastného života.</p>
+
+              <p class="text-pribehy"> Stretol som i ja takého človeka, ktorý potreboval pomôct a požiadal ma o výklad jeho vnútorného obrazu. Obraz bol obrazom ženy, ktorá mala na nohe reťaz. Táto reťaz ju spája s priesvitnou bublinou, v ktorej sa odohrávali výjavy jej života.
+                Moje vysvetlenie bolo </p>
+
+              <p class="text-pribehy-quote">Niesi programátor svojho života ale len pozorovatel. Tvoj život riadia iní. Si uväznená v požiadavkách, ktoré nepatria tebe.</p>
+
+              <p class="text-pribehy">Žena s povzdychom priznala pravdu a začala riešit vztahy, v ktorých žila.</p>
+              <img src="images/P1013001.jpg" class="image-pribehy">
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header z-depth-2">Second</div>
+            <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+          </li>
+          <li>
+            <div class="collapsible-header z-depth-2">Third</div>
+            <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
-  </div>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.collapsible').collapsible();
+    });
+  </script>
 </body>
 
 </html>

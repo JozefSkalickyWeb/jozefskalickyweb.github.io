@@ -2574,7 +2574,7 @@ a {
   box-shadow: none !important;
 }
 
-.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .side-nav {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
 }
 
@@ -3342,6 +3342,7 @@ nav ul a span.badge {
 }
 
 .container {
+  padding-top:2%;
   margin: 0 auto;
   width: 85%;
 }
@@ -3354,7 +3355,7 @@ nav ul a span.badge {
 
 @media only screen and (min-width: 993px) {
   .container {
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -4455,51 +4456,6 @@ html {
   html {
     font-size: 15px;
   }
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 400;
-  line-height: 1.1;
-}
-
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  font-weight: inherit;
-}
-
-h1 {
-  font-size: 4.2rem;
-  line-height: 110%;
-  margin: 2.1rem 0 1.68rem 0;
-}
-
-h2 {
-  font-size: 3.56rem;
-  line-height: 110%;
-  margin: 1.78rem 0 1.424rem 0;
-}
-
-h3 {
-  font-size: 2.92rem;
-  line-height: 110%;
-  margin: 1.46rem 0 1.168rem 0;
-}
-
-h4 {
-  font-size: 2.28rem;
-  line-height: 110%;
-  margin: 1.14rem 0 0.912rem 0;
-}
-
-h5 {
-  font-size: 1.64rem;
-  line-height: 110%;
-  margin: 0.82rem 0 0.656rem 0;
-}
-
-h6 {
-  font-size: 1rem;
-  line-height: 110%;
-  margin: 0.5rem 0 0.4rem 0;
 }
 
 em {
@@ -5669,9 +5625,6 @@ button.btn-floating {
 }
 
 .collapsible {
-  border-top: 1px solid #ddd;
-  border-right: 1px solid #ddd;
-  border-left: 1px solid #ddd;
   margin: 0.5rem 0 1rem 0;
 }
 
@@ -5680,26 +5633,28 @@ button.btn-floating {
   cursor: pointer;
   min-height: 3rem;
   line-height: 3rem;
-  padding: 0 1rem;
-  background-color: #fff;
-  border-bottom: 1px solid #ddd;
-}
-
-.collapsible-header i {
-  width: 2rem;
-  font-size: 1.6rem;
-  line-height: 3rem;
-  display: block;
-  float: left;
-  text-align: center;
-  margin-right: 1rem;
+  margin-bottom:10px;
+  margin-right:55%;
+  padding: 0.5rem 1.5rem;
+  color:#DDD;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.14), 0 1px 5px rgba(0, 0, 0, 0.12), 0 2px 1px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  font-family:'Lora',serif;
+  font-size:21px;
+  background: #777;
+  border-top:1px solid #8A8A8A;
+  border-left:1px solid #8A8A8A;
+  border-right:1px solid #8A8A8A;
+  border-bottom:1px solid #6A6A6A;
 }
 
 .collapsible-body {
   display: none;
-  border-bottom: 1px solid #ddd;
+  background-color: #AAA;
   box-sizing: border-box;
-  padding: 2rem;
+  margin-right:55%;
+  margin-bottom: 1%;
+  padding: 0.5rem 3%;
 }
 
 .side-nav .collapsible,
