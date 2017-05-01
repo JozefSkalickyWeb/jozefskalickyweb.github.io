@@ -5650,7 +5650,7 @@ button.btn-floating {
 }
 
 .collapsible-body {
-  display: inline-block;
+  display: none;
   background-color: #AAA;
   box-sizing: border-box;
   margin-right:55%;
