@@ -79,10 +79,9 @@ body {
 }
 
 .image-pribehy {
-  display: inline-block;
-  position:absolute;
-  top: 100px;
-  left: 60%;
+  display: block;
+  position:relative;
+  left: 120%;
   max-width: 400px;
   margin: 40px auto;
   background-color: #FFF;
