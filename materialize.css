@@ -3344,12 +3344,12 @@ nav ul a span.badge {
 .container {
   padding-top:2%;
   margin: 0 auto;
-  width: 85%;
+  width: 95%;
 }
 
 @media only screen and (min-width: 601px) {
   .container {
-    width: 85%;
+    width: 95%;
   }
 }
 
@@ -4209,15 +4209,15 @@ nav.nav-extended .nav-content {
 }
 
 nav a {
-  color: #fff;
+  color: #393939;
 }
 
 nav i,
 nav [class^="mdi-"], nav [class*="mdi-"],
 nav i.material-icons {
   display: block;
-  font-size: 24px;
-  height: 56px;
+  font-size: 37px;
+  height: 66px;
   line-height: 56px;
 }
 
@@ -5629,6 +5629,10 @@ button.btn-floating {
   margin: 0.5rem 0 1rem 0;
 }
 
+.collapsible-medium {
+  margin: 0.5rem 0 1rem 0;
+}
+
 .collapsible-header {
   display: block;
   cursor: pointer;
@@ -5649,11 +5653,40 @@ button.btn-floating {
   border-bottom:1px solid #6A6A6A;
 }
 
+
+.collapsible-header-medium {
+  display: block;
+  cursor: pointer;
+  min-height: 3rem;
+  line-height: 3rem;
+  margin-bottom:10px;
+  margin-right:0;
+  padding: 0.5rem 1.5rem;
+  color:#DDD;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.14), 0 1px 5px rgba(0, 0, 0, 0.12), 0 2px 1px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  font-family:'Merriweather',serif;
+  font-size:21px;
+  background: #777;
+  border-top:1px solid #8A8A8A;
+  border-left:1px solid #8A8A8A;
+  border-right:1px solid #8A8A8A;
+  border-bottom:1px solid #6A6A6A;
+}
+
 .collapsible-body {
   display: none;
   background-color: #AAA;
   box-sizing: border-box;
   margin-right:55%;
+  margin-bottom: 1%;
+  padding: 0.5rem 3%;
+}
+
+.collapsible-body-medium {
+  display: none;
+  background-color: #AAA;
+  box-sizing: border-box;
   margin-bottom: 1%;
   padding: 0.5rem 3%;
 }
@@ -7086,7 +7119,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .side-nav {
   position: fixed;
-  width: 300px;
+  width: 200px;
   left: 0;
   top: 0;
   margin: 0;
@@ -7096,7 +7129,8 @@ input[type=range]:focus::-ms-fill-upper {
   height: calc(100% + 60px);
   height: -moz-calc(100%);
   padding-bottom: 60px;
-  background-color: #fff;
+  background-color: #393939;
+  color:#CCC!important;
   z-index: 999;
   overflow-y: auto;
   will-change: transform;
@@ -7129,13 +7163,13 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .side-nav li > a {
-  color: rgba(0, 0, 0, 0.87);
+  color: #CCC;
   display: block;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
-  height: 48px;
-  line-height: 48px;
-  padding: 0 32px;
+  height: 60px;
+  line-height: 60px;
+  padding: 15px 32px;
 }
 
 .side-nav li > a:hover {

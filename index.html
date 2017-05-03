@@ -6,19 +6,17 @@
   <title>Jozef Skalický</title>
   <link rel="stylesheet" type="text/css" rel="stylesheet" href="materialize.css" media="screen,projection">
   <link rel="stylesheet" type="text/css" rel="stylesheet" href="style.css" media="screen,projection">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
   <script type="text/javascript" src="materialize.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('.carousel').carousel();
-    });
-  </script>
   <nav>
     <div class="nav-wrapper">
-      <a href="index.html" class="brand-logo"><img src="logo.png" class="logo"></a>
+      <a href="index.html" class="brand-logo"><img src="logo.png" class="logo hide-on-small-only"></a>
+      <a href="index.html" class="brand-logo"><img src="logo_small.png" class="logo-medium hide-on-med-and-up"></a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="ktosom.html">KTO SOM</a></li>
@@ -26,9 +24,15 @@
         <li><a href="pribehy.html">PRÍBEHY</a></li>
         <li><a href="kontakt.html">KONTAKT</a></li>
       </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="ktosom.html">KTO SOM</a></li>
+        <li><a href="ocoide.html">O ČO IDE</a></li>
+        <li><a href="pribehy.html">PRÍBEHY</a></li>
+        <li><a href="kontakt.html">KONTAKT</a></li>
+      </ul>
     </div>
   </nav>
-  <div class="row">
+  <div class="row hide-on-med-and-down">
     <div class="col s2"></div>
     <div class="col s8">
       <div>
@@ -44,7 +48,24 @@
     <div class="col s2"></div>
   </div>
 
+  <div class="row hide-on-large-only">
+    <div class="col s12">
+      <div>
+        <p class="main-title">Obrazy Duše<p>
+        <p class="main-title-sub">Vaše vnútro vo forme obrazov</p>
+        <p class="text-index">Ponúkam Vám empatiu. Čo je empatia? Podľa môjho názoru schopnosť precítiť vnútro druhého človeka. Pri nahliadnutí mám možnosť vydieť a precítiť pomocou svojho vnímania druhého človeka a jeho vnútro. Toto vnútro sa mi prihovára vo forme zvukou, farieb a obrazov. Dnes Vás ponúkam možnosť dostať opis vášho vnútorného ja a jeho žiarenia, ktoré napĺňa svet.</h3>
+        <p></p>
+      </div>
+      <img src="images/P1012998.jpg" class="index-image-medium">
+      <img src="images/P1012999.jpg" class="index-image-medium">
+      <img src="images/P1013001.jpg" class="index-image-medium">
+    </div>
   </div>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.button-collapse').sideNav();
+    })
+  </script>
 </body>
 
 </html>
