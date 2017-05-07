@@ -161,6 +161,13 @@ body {
   padding: 20px 10%;
 }
 
+.text-large {
+  color:#393939;
+  font-family: 'Merriweather', serif;
+  font-size:32px;
+  padding: 20px 10%;
+}
+
 .text-index {
   text-align:justify;
   color:#393939;
@@ -208,6 +215,14 @@ h3 {
   color:#393939;
   font-family: 'Merriweather', serif;
   font-size: 2.2rem;
+  text-align: center;
+}
+
+.h3-large {
+  padding-top:3%;
+  color:#393939;
+  font-family: 'Merriweather', serif;
+  font-size: 4.4rem;
   text-align: center;
 }
 
