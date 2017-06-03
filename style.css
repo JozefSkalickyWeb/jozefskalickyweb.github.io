@@ -19,6 +19,10 @@ body {
   /* IE6-9 */
 }
 
+a {
+  color:#000;
+}
+
 .index-image {
   display: block;
   max-width: 600px;
@@ -53,7 +57,7 @@ body {
 
 .kto-som-image {
   display: block;
-  max-width: 500px;
+  max-width: 700px;
   margin: 15% auto;
   outline: 20px solid #EEE;
   -webkit-box-shadow: 0px 4px 17px 18px rgba(38, 38, 38, 0.75);
@@ -69,6 +73,16 @@ body {
   -webkit-box-shadow: 0px 2px 7px 8px rgba(38, 38, 38, 0.75);
   -moz-box-shadow: 0px 2px 7px 8px rgba(38, 38, 38, 0.75);
   box-shadow: 0px 3px 9px 11px rgba(38, 38, 38, 0.75);
+}
+
+.stojan {
+  display: block;
+  max-width: 700px;
+  margin: 3% auto;
+  outline: 20px solid #EEE;
+  -webkit-box-shadow: 0px 4px 17px 18px rgba(38, 38, 38, 0.75);
+  -moz-box-shadow: 0px 4px 17px 18px rgba(38, 38, 38, 0.75);
+  box-shadow: 0px 6px 19px 21px rgba(38, 38, 38, 0.75);
 }
 
 .image-small {
